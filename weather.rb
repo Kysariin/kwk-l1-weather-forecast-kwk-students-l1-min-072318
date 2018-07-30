@@ -30,8 +30,8 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
 def city_weather_info
-  weather.each do |key, item|
-    puts "The #{key} is #{item}"
+  weather.each do |key, value|
+    puts "The #{key} is #{value}"
   end
 end
 
