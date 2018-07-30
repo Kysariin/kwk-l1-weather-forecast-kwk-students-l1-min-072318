@@ -31,7 +31,7 @@ end
 
 def city_weather_info
   weather.each do |key, item|
-    puts "The #{key} is #{value}"
+    puts "The #{key} is #{item}"
   end
 end
 
